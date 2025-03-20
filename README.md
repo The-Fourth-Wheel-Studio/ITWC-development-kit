@@ -10,7 +10,7 @@ i will mostly explain fundamental things like the structure of some node and wha
 
 So have fun decrypting all of my intricated and spagettied script and good luck! (and sorry for the bad spelling i'm a frogeater so i don't know english very well)
 
-# related information
+## related information
 
 so building a game is a complicated and long process so obviously i can't create everything from 0. Thus you can find right here all external tool and stuff required to work with ITWC.
 
@@ -25,8 +25,8 @@ so building a game is a complicated and long process so obviously i can't create
 
 
 
-# Contents
+## Contents
 
-## Component
+### Component
 
 sooo, godot is a powerfull game engine based on tree-like structure through node, i've try to use this potential by creating "component". Component are simply custom node with different behavior that you can ~~in theory~~ drag and drop on your scene and tada ! but because of various technical reason ~~(i'm a bad dev but don't tell this to Martin i want to keep my job)~~ this component system don't work great and is very hard to use, so here's a list of every single component and how they work.
