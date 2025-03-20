@@ -6,5 +6,5 @@ And because i'm a crazy man with a crazy brain, my code is absolute garbadge ! s
 
 i will mostly explain fundamental things like the structure of some node and what do you have to put in all the @export variable (i love @export you will see).
 
-So have fun decrypting all of my intricated and spagettied script and good luck!
+So have fun decrypting all of my intricated and spagettied script and good luck! (and sorry for the bad spelling i'm a frogeater so i don't know english very well)
 
