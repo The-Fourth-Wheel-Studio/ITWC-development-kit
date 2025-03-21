@@ -6,7 +6,7 @@ Component are very important if you want to create anything in ITWC, there are b
 
 player component are the component specific to the player, you won't use them very often unless you want to modify or create custom player.
 
-- ### <img src="image/component/velocityComponent.png" width = "25"> velocity component
+- ### <img src="image/component/velocityComponent.png" width = "25"> [velocity component](component/velocityComponent.md)
 
 **class name : ```velocityComponent``` </code>**
 
