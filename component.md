@@ -24,7 +24,7 @@ the input handler is kinda useless, it's more a remnant of IDWN, basicly he gath
 
 repulse handler is basicly a component that allow you to push player back, very usefull if you have the covid-19
 
-- ### <img src="image/component/repulseHandlerZone.png" width="25"> repulse handler zone 
+- ### <img src="image/component/repulseHandlerZone.png" width="25"> [repulse handler zone](/component/repulseHandlerZone.md)
 
 **class name : ```repulseHandlerZone``` </code>**
 

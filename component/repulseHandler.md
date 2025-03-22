@@ -8,7 +8,7 @@ To use a repulseHandler you need to set it up like so:
 
 <img src="../image/tree/repulseHandler.PNG" width="1000">
 
-the Area3D is just a normal Area3D with a [repulseHandlerZone]() 
+the Area3D is just a normal Area3D with a [repulseHandlerZone](repulseHandlerZone.md) 
 
 - ### for the player :
 
@@ -31,13 +31,13 @@ Then you'r almost done just set the different export variable (see [attributes](
 
 - force : float, @export_range of [1, 50], handle the force applied by the repulsion, the more this value is high the more you will be push back (no need to set a force for repulse zone just for player)
 
-- collider : [repulseHandlerZone]()
+- collider : [repulseHandlerZone](repulseHandlerZone.md)
 
 ## Methods
 
 - ### getOtherBody -> Array[[repulseHandler](repulseHandler.md)]
 
-    return a list of every repulseHandler detect by the Area3D in the range of the [repulseHandlerZone]()
+    return a list of every repulseHandler detect by the Area3D in the range of the [repulseHandlerZone](repulseHandlerZone.md)
 
     \
     no parameters
