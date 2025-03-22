@@ -18,7 +18,7 @@ the velocity component handle... velocity ! who would have guess that... anyway 
 
 the input handler is kinda useless, it's more a remnant of IDWN, basicly he gather all input (hardcoded) and set boolean for each input that you can access. the only advantage of this component is that you have the possibility to block certain combination of input
 
-- ### <img src="image/component/repulseHandler.png" width="25"> repulse handler
+- ### <img src="image/component/repulseHandler.png" width="25"> [repulse handler](./component/inputHandler.md)
 
 **class name : ```repulseHandler``` </code>**
 
