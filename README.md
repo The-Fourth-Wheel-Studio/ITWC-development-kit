@@ -37,7 +37,7 @@ The component system is great and all but if you don't know exaclty in witch ord
 
 ### ITWCdata and game loading
 
-because of various long thinking reason ~~(i wanted to flex)~~ i've created a custom file extension called .ITWCdata that is use to load game ressource and is very usefull for Mods
+after careful consideration ~~(i wanted to flex)~~ i've created a custom file extension called .ITWCdata that is use to load game ressource and is very usefull for Mods
 
 ### Singleton and global class
 

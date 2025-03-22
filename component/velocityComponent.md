@@ -2,7 +2,7 @@
 
 ## how to use
 
-velocityCOmponent is use to do operation on velocity, you want to use it like so : 
+velocityComponent is use to do operation on velocity, you want to use it like so : 
 
 set the velocity of the velocity component with 
 ```gdscript

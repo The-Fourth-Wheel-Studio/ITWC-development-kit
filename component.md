@@ -10,9 +10,9 @@ player component are the component specific to the player, you won't use them ve
 
 **class name : ```velocityComponent``` </code>**
 
-the velocity component handle... velocity ! who would guess this... anyway this component allow you to do operation on velocity and get a final velocity after all your point mechanics
+the velocity component handle... velocity ! who would have guess that... anyway this component allow you to do operation on velocity and get a final velocity after all your point mechanics
 
-- ### <img src="image/component/inputHandler.png" width = "25" width = "25"> input handler
+- ### <img src="image/component/inputHandler.png" width = "25" width = "25"> [input handler](./component//inputHandler.md)
 
 **class name : ```inputHandler``` </code>**
 
@@ -28,13 +28,13 @@ repulse handler is basicly a component that allow you to push player back, very 
 
 **class name : ```repulseHandlerZone``` </code>**
 
-repulse handler is not very important, it's just a component to set a collision shape to a repulse handler, he use to have some kind of behavior but not anymore he's just here...
+repulse handler zone is not very important, it's just a component to set a collision shape to a repulse handler, he use to have some kind of behavior but not anymore he's just here...
 
 - ### <img src="image/component/abilitiesManager.png" width="25"> abilities manager
 
 **class name : ```abilitiesManager```**
 
-this component manage abilities (see, i'm not good at computer science but i can give good name (spoiler : i will name my children with number)) you can drag and drop any [ability component](#abilities) and he will execute them for you automaticly no need to do complicated setup ! (finally a good use of the component)
+this component manage abilities (see, i'm not good at computer science but i can give good name (spoiler : i will name my children with number)) you can drag and drop any [ability component](#abilities) and he will execute them for you automaticly no need to do complicated setup ! (finally a good use of components)
 
 - ### <img src="image/component/abilitiesComponent.png" width="25"> abilities
 
