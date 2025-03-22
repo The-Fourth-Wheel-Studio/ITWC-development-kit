@@ -30,7 +30,7 @@ repulse handler is basicly a component that allow you to push player back, very 
 
 repulse handler zone is not very important, it's just a component to set a collision shape to a repulse handler, he use to have some kind of behavior but not anymore he's just here...
 
-- ### <img src="image/component/abilitiesManager.png" width="25"> abilities manager
+- ### <img src="image/component/abilitiesManager.png" width="25"> [abilities manager](./component/abilitiesManager.md)
 
 **class name : ```abilitiesManager```**
 
