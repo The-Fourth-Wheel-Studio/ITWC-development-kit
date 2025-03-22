@@ -18,7 +18,7 @@ inputHandler.theBooleanYouWantToAccess
 
 - direction : Vector2, store ```Input.get_vector("left", "right", "up", "down")```
 
-- leftClick : bool, store ```Input.is_action_pressed("left_click")```
+- leftClick : bool, store ```Input.is_action_pressed("left_click")``` (useless)
 
 - isCrouch : bool, store ```Input.is_action_pressed("crouch")```
 

@@ -16,7 +16,7 @@ velocity = velocityHandler.getFinalVelocity()
 ```
 ## attributes
 
-the velocityHandler have only one methods
+the velocityHandler have only one attribute
 
 - Velocity : Vector3, store the velocity of the velocityComponent, set with setCurrentVelocity and get with getFinalVelocity()
 
