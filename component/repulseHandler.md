@@ -6,14 +6,14 @@ repulse handler is a special component, indeed he's use to repulse player he is 
 
 To use a repulseHandler you need to set it up like so: 
 
-<img src="../image/tree/repulseHandler.PNG" width="1000">
+<img src="../image/tree/repulseHandler.PNG" width="300">
 
 the Area3D is just a normal Area3D with a [repulseHandlerZone](repulseHandlerZone.md) 
 
 - ### for the player :
 
     the repulseHandler Area3D will have a mask set to 3 :
-    <img src="../image/component/repulseHandler/mask.PNG" width="1000">
+    <img src="../image/component/repulseHandler/mask.PNG" width="300">
 
     the player must have a [repulse handler ability]() active for this to work.
 
@@ -21,11 +21,11 @@ the Area3D is just a normal Area3D with a [repulseHandlerZone](repulseHandlerZon
 
     for repulse zone, just set a repulseHandler but with this time the layer set to 3
 
-    <img src="../image/component/repulseHandler/layer.PNG" width="1000">
+    <img src="../image/component/repulseHandler/layer.PNG" width="300">
 
 Then you'r almost done just set the different export variable (see [attributes](#attributes))
 
-<img src="../image//component//repulseHandler/repulse export.PNG" width="1000">
+<img src="../image//component//repulseHandler/repulse export.PNG" width="300">
 
 ## Attributes
 
