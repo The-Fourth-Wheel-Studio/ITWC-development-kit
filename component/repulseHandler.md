@@ -13,6 +13,7 @@ the Area3D is just a normal Area3D with a [repulseHandlerZone](repulseHandlerZon
 - ### for the player :
 
     the repulseHandler Area3D will have a mask set to 3 :
+    
     <img src="../image/component/repulseHandler/mask.PNG" width="300">
 
     the player must have a [repulse handler ability]() active for this to work.
