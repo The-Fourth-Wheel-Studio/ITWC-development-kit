@@ -36,14 +36,23 @@ repulse handler zone is not very important, it's just a component to set a colli
 
 this component manage abilities (see, i'm not good at computer science but i can give good name (spoiler : i will name my children with number)) you can drag and drop any [ability component](#abilities) and he will execute them for you automaticly no need to do complicated setup ! (finally a good use of components)
 
-- ### <img src="image/component/abilitiesComponent.png" width="25"> abilities
+- ### <img src="image/component/abilitiesComponent.png" width="25"> [abilities](./component/abilities.md)
 
 **class name : ```abilities```**
 
 abilities is litterally nothing but an empty function, you can extend this class and write code in this function and when the ability is place in a [abilitiesManager](#abilities-manager) the function will be called.
 
-- ### <img src="image/component/isOnFloorComponent.png" width="25"> is on floor component
-
+- ### <img src="image/component/isOnFloorComponent.png" width="25"> [is on floor component](./component/isOnFloor.md)
 **class name : ```isOneFloorComponent```**
 
 is on floor component provide a better version of the is_on_floor() godot's built-in method.
+
+## Camera Component
+
+so because we are on godot i had to redev cinemachine... i know i'm stupid but this lead to the creation of various camera related component
+
+- ### <img src="./image/component/cameraComponent.png" width="25"> Camera component
+
+**class name :** ```theBestCameraEver``` (my ego is so big the general relativity theory is not enouth to describe all gravitational alteration it generates)
+
+Litteraly just a Camera3D but with A LOT (pls i need help) of utils function.
