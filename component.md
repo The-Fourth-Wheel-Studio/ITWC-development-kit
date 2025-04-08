@@ -51,7 +51,7 @@ is on floor component provide a better version of the is_on_floor() godot's buil
 
 so because we are on godot i had to redev cinemachine... i know i'm stupid but this lead to the creation of various camera related component
 
-- ### <img src="./image/component/cameraComponent.png" width="25"> Camera component
+- ### <img src="./image/component/cameraComponent.png" width="25"> [Camera component](./component/camera.md)
 
 **class name :** ```theBestCameraEver``` (my ego is so big the general relativity theory is not enouth to describe all gravitational alteration it generates)
 
