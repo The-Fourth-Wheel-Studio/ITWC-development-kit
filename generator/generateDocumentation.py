@@ -32,15 +32,18 @@ if len(presetArray) > 0:
     
     ok = False
     while not ok:
+        ans = presetList.execute()
+        module = None
         try:
-            ans = presetList.execute()
             module = importlib.import_module("preset."+ans[:-3]) #thanks momoDeckstop
-            ok = True
+            
         except:
             MKUtils.MKprint("no preset name this way, did you forget '.py' ?", _SCRIPT_NAME, _SCRIPT_COLOR)
-        try:
-            module.execute(file)
-        except:
-            MKUtils.MKprint("the preset is broken, did tender wrote this one ?", _SCRIPT_NAME, _SCRIPT_COLOR)
+        if module != None:
+            ok = True
+    #try:
+    module.execute(file)
+    #except:
+    #    MKUtils.MKprint("the preset is broken, did tender wrote this one ?", _SCRIPT_NAME, _SCRIPT_COLOR)
 else:
     MKUtils.MKprint("no preset available", "Documentation Generator", "YELLOW")
