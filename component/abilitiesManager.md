@@ -2,7 +2,7 @@
 
 # How to use
 
-FINALLY A COMPONENT THAT WORK PROPERLY !!! anyways just drag and drop [abilities]() component to make them child of a abilitiesManager and every single abilities will be execute when needed
+FINALLY A COMPONENT THAT WORK PROPERLY !!! anyways just drag and drop [abilities](./abilities.md) component and [abilitiesAfterPhysics]() component to make them child of a abilitiesManager and every single abilities will be execute when needed
 
 As an exemple here's the player abilitiesManager tree :
 
@@ -35,6 +35,8 @@ abilitieManager.execute(delta)
 
 velocity = velocityHandler.getFinalVelocity()
 move_and_slide()
+
+abilitieManager.executeAfterPhysics(delta)
 
 ```
 so abilities modify the velocity of the velocityComponent and the player get the final velocity and apply it to him.
