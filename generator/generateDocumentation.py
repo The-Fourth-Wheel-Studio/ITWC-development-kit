@@ -34,11 +34,11 @@ if len(presetArray) > 0:
     while not ok:
         ans = presetList.execute()
         module = None
-        try:
-            module = importlib.import_module("preset."+ans[:-3]) #thanks momoDeckstop
+        #try:
+        module = importlib.import_module("preset."+ans[:-3]) #thanks momoDeckstop
             
-        except:
-            MKUtils.MKprint("no preset name this way, did you forget '.py' ?", _SCRIPT_NAME, _SCRIPT_COLOR)
+        #except:
+        #    MKUtils.MKprint("no preset name this way, did you forget '.py' ?", _SCRIPT_NAME, _SCRIPT_COLOR)
         if module != None:
             ok = True
     #try:
